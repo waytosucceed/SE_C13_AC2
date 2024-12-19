@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Introduction To Decimals</div>
+
+        
+          <div>
+            <h2>Decimal:</h2>
+            <p>
+              A decimal number consists of a whole number part and a fractional part, separated by a decimal point.
+              <BR><B>Example</B>: In the decimal 23.45, 23 is the whole number part, and 45 is the fractional part, which represents 45 hundredths.
+            </p>
+            <br><img src="./assests/explaination/image10.png" alt="" width="50%"><br>
+            <h2>Place Value in Decimals :</h2>
+            <p>
+              Place value refers to the position of a digit in a number, which determines its value. In decimals, this concept extends beyond the decimal point. To the left of the decimal point, each position represents an increasing power of ten as you move towards the left. To the right of the decimal point, each position represents a decreasing fraction (or division) of ten.
+            </p>
+            <br><img src="./assests/explaination/image12.png" alt="" width="50%"><br>
+            <p><b>Note:</b> 10<sup>-1</sup> = <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>10</mi></msup></mfrac></mfrac></math> = 0.1, 10<sup>-2</sup> = <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>100</mi></msup></mfrac></mfrac></math> = 0.01, 10<sup>-3</sup> = <math><mfrac bevelled="true"><mfrac><msup><mi>1</mi></msup></mfrac><mfrac><msup><mi>1000</mi></msup></mfrac></mfrac></math> = 0.001 and so on.</p>
+            <h2>Decimal Places :</h2>
+            <p>
+              The number of digits located to the right of the decimal point in a decimal number determines the number of decimal places.
+              <br><b>Example:</b> 2.8 has one decimal place, 3.21 has two decimal places and 3.125 has three decimal places.
+            </p>
+            <h2>Equivalent Decimals :</h2>
+            <p>
+              Equivalent decimals are decimal numbers that have the same value. <br>
+              <b>Example:</b> 0.3 and 0.30 are equivalent decimals.
+              <br><br>
+              <b>Note :</b> Adding zeros to the right of a decimal point does not change the value of the number. 
+              <br><b>For example:</b> 3.5 is equivalent to 3.50, 3.500, or 3.5000. You can add as many zeros as you like after the decimal point without altering the numerical value of the decimal.
+            </p>
+
+            <h2>Like and Unlike Decimals</h2>
+            <h3>Like Decimals : </h3>
+            <p>
+              Like decimals are decimal numbers that have the same number of digits after the decimal point. Their precision level is identical, which makes calculations such as addition and subtraction straightforward since the digits are already aligned.
+            </p>
+            <h3>
+              Unlike Decimals :
+            </h3>
+            <p>
+              Unlike Decimals have different numbers of digits after the decimal point, requiring adjustments to perform mathematical operations. Aligning the decimal places is a necessary step before proceeding with calculations.
+            </p>
+            <h3>Examples of Like and Unlike Decimals</h3>
+            <ol>
+              <li>
+                <b>Like Decimals:</b>
+                <ul>
+                  <li><b>Example Numbers:</b> 3.45, 2.35, 8.65</li>
+                  <li><b>Explanation:</b> Each of these numbers has two digits following the decimal point, making them like decimals.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Unlike Decimals:</b>
+                <ul>
+                  <li><b>Example Numbers:</b> 0.5, 2.345, 7.1</li>
+                  <li><b>Explanation:</b> These numbers have varying digits after the decimal point, making them unlike decimals. The first has one digit, the second has three, and the third has one.</li>
+                </ul>
+              </li>
+            </ol>
+            <h3>Aligning Unlike Decimals :</h3>
+            <p>
+              Before you can add, subtract, or compare unlike decimals effectively, you must first align them by converting them into like decimals. This is done by adding zeros to the end of the decimal part of numbers until all have the same number of decimal places.
+              <br><b>Example of Aligning Unlike Decimals:</b>
+            </p>
+            <ul>
+              <li><b>Original Numbers:</b> 0.5, 2.345, 7.1</li>
+              <li><b>Aligned Numbers:</b> 0.500, 2.345, 7.100</li>
+            </ul>
+            <p>
+              Now, all numbers are like decimals with three digits after the decimal point.
+            </p>
+            <h2>Comparison of Decimal Numbers :</h2>
+            <p>
+              Comparing decimal numbers is a fundamental skill in mathematics that enables us to understand the relative sizes of different values. This concept is crucial for everyday activities such as measuring, shopping, and dealing with money. Understanding how to compare decimals allows us to determine which numbers are greater in given numbers or if they are equal.
+            </p>
+            <br>
+            <h3>Basic Rules for Comparing Decimals</h3>
+            <p>
+              When comparing decimal numbers, the process involves examining the digits from left to right, starting with the whole number part to the left of the decimal point. If these are equal, the comparison proceeds to the digits immediately to the right of the decimal point. Here are the steps and rules:
+            </p>
+            <ol>
+              <li><b>Align the Numbers:</b> Ensure the decimal points are lined up horizontally or vertically.</li>
+              <li><b>Add Zeros if Necessary:</b> To make comparison easier, you can add zeros to the end of decimals to give them the same number of decimal places.</li>
+              <li><b>Compare Digit by Digit:</b> Starting from the leftmost digit, compare each pair of digits until you find a pair that is different. The number with the larger digit in that place is the greater number.</li>
+            </ol>
+
+            <h3>Example 1: Simple Comparison</h3>
+            <ul>
+              <li><b>Numbers:</b> 0.75 and 0.8</li>
+              <li><b>Aligned for Comparison:</b>
+                <ul>
+                  <li>0.75</li>
+                  <li>0.80</li>
+                </ul>
+              </li>
+              <li><b>Comparison:</b>
+                <ul>
+                  <li><b>Compare Whole Numbers:</b> Both numbers have 0 to the left of the decimal point, so they are equal in the whole number part.</li>
+                  <li><b>Compare tenths:</b> 7 (in 0.75) vs 8 (in 0.8). Since 8 is greater than 7, 0.8 is greater than 0.75.</li>
+                </ul>
+              </li>
+            </ul>
+           <p> <b>Result: </b>0.8 is greater than 0.75.</p>
+            <br><img src="./assests/explaination/image11.png" alt="" width="50%"><br>
+            
+            <h3>Example 2: Comparing Longer Decimals</h3>
+            <ul>
+              <li><b>Numbers:</b> 3.14159 and 3.14156</li>
+              <li><b>Aligned for Comparison:</b>
+                <ul>
+                  <li>3.14159</li>
+                  <li>3.14156</li>
+                </ul>
+              </li>
+              <li><b>Comparison:</b>
+                <ul>
+                  <li><b>Compare Whole Numbers:</b> Both numbers have 3 to the left of the decimal point, so they are equal in the whole number part.</li>
+                  <li>Compare ones, tenths, hundredths, thousandths, ten-thousandths: all digits match.</li>
+                  <li><b>Compare hundred-thousandths:</b> 9 (in 3.14159) vs 0 (in 3.14156). Since 9 is greater than 0, 3.14159 is greater than 3.14156.</li>
+                </ul>
+              </li>
+            </ul>
+            <p><b>Result: </b>3.14159 is greater than 3.14156.</p>
+           
+
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+[
+    {
+        "questionNo": "Q1",
+        "question": "What is 0.37 same as?",
+        "options": [
+            "0.037",
+            "0.307",
+            "0.370",
+            "0.0370"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q2",
+        "question": "In the decimal 0.789, what is the place value of 8?",
+        "options": [
+            "Tenths",
+            "Hundredths",
+            "Thousandths",
+            "None of the above"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q3",
+        "question": "Which decimal is greater: 0.402 or 0.42?",
+        "options": [
+            "0.402",
+            "0.42",
+            "Both are equal",
+            "Cannot be determined"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q4",
+        "question": "In the number 0.073, which digit is in the tenths place?",
+        "options": [
+            "0",
+            "7",
+            "3",
+            "None"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q5",
+        "question": "In the decimal 0.2345, what is the place value of 4?",
+        "options": [
+            "Tenths",
+            "Hundredths",
+            "Thousandths",
+            "Ten-thousandths"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q6",
+        "question": "Which of the following numbers is the smallest:<br> 0.809, 0.89, 0.8009, 0.8090?",
+        "options": [
+            "0.809",
+            "0.89",
+            "0.8009",
+            "0.8090"
+        ],
+        "correct": 2
+    },
+    {
+        "questionNo": "Q7",
+        "question": "In the decimal 12.9875, what is the place value of 9?",
+        "options": [
+            "Tenths",
+            "Hundredths",
+            "Thousandths",
+            "Ten-thousandths"
+        ],
+        "correct": 0
+    },
+    {
+        "questionNo": "Q8",
+        "question": "Arrange the following decimals in ascending order:<br> 0.501, 0.15, 0.510, 0.050.",
+        "options": [
+            "0.050, 0.15, 0.510, 0.501",
+            "0.050, 0.15, 0.501, 0.510",
+            "0.050, 0.501, 0.15, 0.510",
+            "0.15, 0.050, 0.501, 0.510"
+        ],
+        "correct": 1
+    },
+    {
+        "questionNo": "Q9",
+        "question": "Which decimal number is the largest:<br> 0.123, 0.132, 0.213, 0.231?",
+        "options": [
+            "0.123",
+            "0.132",
+            "0.213",
+            "0.231"
+        ],
+        "correct": 3
+    },
+    {
+        "questionNo": "Q10",
+        "question": "Arrange these decimals in ascending order:<br> 0.1, 0.01, 0.001, 1.0.",
+        "options": [
+            "0.001, 0.01, 0.1, 1.0",
+            "0.1, 0.01, 0.001, 1.0",
+            "1.0, 0.1, 0.01, 0.001",
+            "0.01, 0.001, 0.1, 1.0"
+        ],
+        "correct": 0
+    }
+]
